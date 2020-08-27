@@ -1,0 +1,20 @@
+
+{% extends 'base_html.html' %}
+
+{% block content %}
+        <div id = "head">
+            <h1> Blog List</h1>
+        </div>   
+        <div class = "blogs">
+            {% for blog in blogs%}
+            <div class ="myblog">
+                <h2><a href = "{% url 'blog:detail' slug=blog.slug %}">{{blog.title}}</a> </h2>
+                <p>{{blog.body|truncatewords_html:10}}</p>
+                <p>{{blog.date}}</p>
+            </div>
+
+            {% endfor %}
+        </div>
+
+{% endblock %}
+   

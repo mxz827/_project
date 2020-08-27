@@ -1,0 +1,2 @@
+ background-image: url(/static/ting.jpg);
+    background-repeat:repeat;

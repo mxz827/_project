@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+
+#paragraph{
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+}
+
+li{
+    
+    text-align: left;
+    font-size: 20px; 
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url("001.jpeg");
+    background-size: cover;
+}
+
+p{
+    text-align: left;
+    font-size: 20px; 
+    color: rgb(253, 253, 253);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+}
